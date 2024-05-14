@@ -4,9 +4,9 @@ trigger:
 - none
 
 variables:
-  service-connection: 'Azure-ARM-Dev' # replace with your service connection name
-  resource-group: 'RESEARCH-DEVELOPMENT' # replace with your resource group name
-  workspace: 'aml-development' # replace with your workspace name
+  service-connection: 'MLOps-PHE' # replace with your service connection name
+  resource-group: 'aml-development' # replace with your resource group name
+  workspace: 'RESEARCH-DEVELOPMENT' # replace with your workspace name
 
 jobs:
 - job: SubmitAzureMLJob
